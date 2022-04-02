@@ -1,0 +1,61 @@
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  width: 700px;
+}
+
+.App>h1 {
+  color: cornflowerblue;
+}
+
+.searchForm {
+  display: flex;
+  border: 10px solid cornflowerblue;
+  border-radius: 10px;
+}
+
+.searchForm> * {
+  border: 1px solid lightgrey;
+  padding: 10px 20px;
+}
+
+.searchForm>button:hover {
+  color: cornflowerblue;
+  
+}
+
+.user {
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 10px;
+  width: 680px;
+}
+
+.user:hover {
+  background-color: grey;
+  color: white;
+}
+
+.userInfo {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.userActions>* {
+  border: 1px solid white;
+  padding: 5px 10px;
+  margin-right: 5px;
+}
+
+.userActions>button:hover {
+  border: 1px solid cornflowerblue;
+  padding: 5px 10px;
+  margin-right: 5px;
+  background-color: cornflowerblue;
+  color: white;
+}
